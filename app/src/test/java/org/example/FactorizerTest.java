@@ -24,11 +24,11 @@ class FactorizerTest {
   @Test
   void primeFactorsTest63() {
     Factorizer factorizer = new Factorizer();
-    assertEquals(factorizer.primeFactors(24), new ArrayList<Integer>(Arrays.asList(3, 3, 7)));
+    assertEquals(factorizer.primeFactors(63), new ArrayList<Integer>(Arrays.asList(3, 3, 7)));
   }
   @Test
   void primeFactorsTest9699690() {
     Factorizer factorizer = new Factorizer();
-    assertEquals(factorizer.primeFactors(24), new ArrayList<Integer>(Arrays.asList(2, 3, 5, 7, 11, 13, 17, 19)));
+    assertEquals(factorizer.primeFactors(9699690), new ArrayList<Integer>(Arrays.asList(2, 3, 5, 7, 11, 13, 17, 19)));
   }
 }
